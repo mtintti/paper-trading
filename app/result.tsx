@@ -49,8 +49,7 @@ export default function resultScreen() {
         const finnhub = require('finnhub');
 
         const api_key = finnhub.ApiClient.instance.authentications['api_key'];
-        api_key.apiKey = "crf9dupr01qk4jsbc0bgcrf9dupr01qk4jsbc0c0"
-        // crf9dupr01qk4jsbc0bgcrf9dupr01qk4jsbc0c0 API_KEY_HERE
+        api_key.apiKey = "API_KEY_HERE"
         const finnhubClient = new finnhub.DefaultApi()
 
         finnhubClient.quote(ticker, (error: any, data: any, response: any) => {
