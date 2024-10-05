@@ -1,11 +1,16 @@
-
 import { StyleSheet } from 'react-native';
 import { View } from 'react-native';
+import { Button } from 'react-native-paper';
+import { useAuth } from '../authContext';
 
-export default function ModalScreen() {
+export default function WatchScreen() {
+  const {signOut} = useAuth();
+  const signOutUser  = () => {
+    signOut();
+  }
   return (
-    <View style={styles.container}>
-     
+    <View>
+      <Button  mode="contained" onPress={signOutUser}>Sign out</Button>
     </View>
   );
 }
