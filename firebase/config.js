@@ -6,7 +6,7 @@ import {getFirestore} from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCxcmRo0q2oc6Vk8DMXz_8w7LNbHBjv6oc",
+  apiKey: "firebase_API_Key",
   authDomain: "paper-trading-35a69.firebaseapp.com",
   projectId: "paper-trading-35a69",
   storageBucket: "paper-trading-35a69.appspot.com",
